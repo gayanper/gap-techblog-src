@@ -1,0 +1,53 @@
+apiVersion: elasticsearch.k8s.elastic.co/v1
+kind: Elasticsearch
+metadata:
+  name: es8
+  namespace: es
+spec:
+  version: 8.11.0
+  nodeSets:
+    - name: masters
+      count: 2
+      config:
+        node.roles: ["master", "data", "ingest", "remote_cluster_client"]
+        node.store.allow_mmap: false
+        xpack.security.enabled: false
+      volumeClaimTemplates:
+        - metadata:
+            name: elasticsearch-data
+          spec:
+            resources:
+              requests:
+                storage: 1Gi
+            accessModes:
+              - ReadWriteOnce
+            storageClassName: local-path
+      podTemplate:
+        spec:
+          containers:
+            - name: elasticsearch
+              resources:
+                requests:
+                  memory: 1Gi
+                  cpu: 1
+                limits:
+                  memory: 1Gi
+                  cpu: 1
+              readinessProbe:
+                httpGet:
+                  path: /_cluster/health
+                  port: 9200
+  monitoring:
+    metrics:
+      elasticsearchRefs:
+        - name: es8
+          namespace: es
+    logs:
+      elasticsearchRefs:
+        - name: es8
+          namespace: es
+  http:
+    tls:
+      selfSignedCertificate:
+        disabled: true
+    

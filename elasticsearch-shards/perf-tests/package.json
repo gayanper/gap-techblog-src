@@ -1,0 +1,17 @@
+{
+  "name": "perf-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run compile && k6 run ./dist/search.test.js",
+    "compile": "tsc --outDir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "k6": "^0.0.0",
+    "@types/k6": "0.47.2",
+    "typescript": "^5.2.2"
+  }
+}
