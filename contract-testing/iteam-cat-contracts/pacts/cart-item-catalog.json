@@ -1,0 +1,61 @@
+{
+  "consumer": {
+    "name": "cart"
+  },
+  "interactions": [
+    {
+      "description": "a request to list all items",
+      "providerStates": [
+        {
+          "name": "there are items"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/items"
+      },
+      "response": {
+        "body": [
+          {
+            "code": "T9000",
+            "description": "Milk 3.5% 1L",
+            "price": "10.5"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type",
+                  "min": 1
+                }
+              ]
+            }
+          },
+          "header": {}
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "12.1.0"
+    },
+    "pactRust": {
+      "ffi": "0.4.9",
+      "models": "1.1.11"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "item-catalog"
+  }
+}

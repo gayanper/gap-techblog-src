@@ -1,0 +1,36 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: item-cat-service
+  labels:
+    app: item-cat-service
+spec:
+  type: NodePort
+  selector:
+    app: item-cat-service
+  ports:
+  - port: 8080
+    targetPort: 8080
+    name: http
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: item-cat-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: item-cat-service
+  template:
+    metadata:
+      labels:
+        app: item-cat-service
+        version: v1
+    spec:
+      containers:
+      - name: item-cat-service
+        image: item-cat-service
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
