@@ -19,7 +19,7 @@ func main() {
 	flag.StringVar(&port, "port", "8080", "port to listen on");
 	flag.Parse()
 
-	resp, err := http.Get("http://127.0.0.1:" + port + "/items")
+	resp, err := http.Get("http://127.0.0.1:" + port + "/items?locale=en-US")
 	if err != nil {
 		fmt.Println("Error:", err)
 		os.Exit(100)
