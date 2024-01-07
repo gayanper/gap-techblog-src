@@ -1,4 +1,6 @@
 package org.gap.medium.contracttesting;
 
-public record ItemResponse(String code, String description, String price) {
+import java.util.List;
+
+public record ItemResponse(String code, String description, List<String> price) {
 }
