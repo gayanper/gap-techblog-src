@@ -30,6 +30,7 @@ public class ItemService implements HttpService {
     }
     
     private ItemResponse mapToResponse(Item item) {
-        return new ItemResponse(item.code(), item.description(), item.price().stream().map(format::format).toList());
+        return new ItemResponse(item.code(), item.description(), format.format(item.price()),
+                item.prices().stream().map(format::format).toList());
     }
 }
