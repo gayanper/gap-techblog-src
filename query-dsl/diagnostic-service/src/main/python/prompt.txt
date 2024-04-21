@@ -1,0 +1,37 @@
+You are tasked with developing a Python script to generate sample data for a healthcare statistics system. The system collects anonymous statistics about patient diagnosis data and demographic data. Both data sets must be saved into json files.
+
+The patient diagnosis data includes the following information:
+
+- Diagnosis code (ICD-10) using attribute name as diagnosis_code
+- Date of diagnosis registration using attribute name as registration_date
+- Age of the patient at the time of diagnosis using attribute name as age_at_diagnose
+- Year of birth of the patient using attribute name as birth_year
+- City of residence of the patient using attribute name  as city_of_residence
+- Gender of the patient (Male or Female), Use 'M' for Male and 'F' for Female using attribute name as gender
+- Marital status of the patient (Married or Unmarried) which is a Boolean where Married is `True` and Unmarried is `False` using attribute name as married
+
+The demographic data includes the following information for each city:
+
+- City name using attribute name as city
+- Total population using attribute name as total_population
+
+You need to generate Python code with only using standard python modules to create sample data for both patient diagnosis and demographic data. The patient diagnosis data should use a list of city names primarily from Sweden. Use the following ICD-10 diagnosis codes for the sample data:
+
+- Common Cold: J00
+- Influenza: J09-J11
+- Acute Bronchitis: J20
+- Pneumonia: J12-J18
+- Otitis Media: H66
+- Urinary Tract Infection: N39
+- Gastritis: K29
+- Gastroenteritis: A09
+- Allergic Rhinitis: J30
+- Sinusitis: J01-J03
+
+Ensure the age at diagnose and diagnosis registration date is relatable to birth year . Use random year between the birth year and current date year for the registration date and calculate the age at diagnose by calculating the difference between the registration year and birth year.
+
+Ensure that the generated code allows for configuring the number of entries to be generated for both patient diagnosis and demographic data. Use files names "patient_diagnosis_data.json" for patient diagnosis and "demographic_data,json" for demographic data.
+
+Ensure that all json fields follows snake case naming convention.
+
+Provide appropriate comments and documentation within the code.

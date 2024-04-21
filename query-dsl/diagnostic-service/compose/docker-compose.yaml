@@ -1,0 +1,8 @@
+services:
+  db:
+    container_name: mongodb-ce-ds
+    image: mongodb/mongodb-community-server:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./init-mongo/:/docker-entrypoint-initdb.d/:ro
