@@ -1,0 +1,70 @@
+[
+    {
+        "city": "Stockholm",
+        "total_population": 253253
+    },
+    {
+        "city": "Gothenburg",
+        "total_population": 448478
+    },
+    {
+        "city": "Malm\u00f6",
+        "total_population": 273410
+    },
+    {
+        "city": "Uppsala",
+        "total_population": 300411
+    },
+    {
+        "city": "V\u00e4ster\u00e5s",
+        "total_population": 413296
+    },
+    {
+        "city": "\u00d6rebro",
+        "total_population": 485047
+    },
+    {
+        "city": "Link\u00f6ping",
+        "total_population": 485749
+    },
+    {
+        "city": "Helsingborg",
+        "total_population": 483920
+    },
+    {
+        "city": "J\u00f6nk\u00f6ping",
+        "total_population": 262868
+    },
+    {
+        "city": "Norrk\u00f6ping",
+        "total_population": 297794
+    },
+    {
+        "city": "Lund",
+        "total_population": 70549
+    },
+    {
+        "city": "Ume\u00e5",
+        "total_population": 79282
+    },
+    {
+        "city": "G\u00e4vle",
+        "total_population": 170371
+    },
+    {
+        "city": "Bor\u00e5s",
+        "total_population": 382954
+    },
+    {
+        "city": "S\u00f6dert\u00e4lje",
+        "total_population": 235977
+    },
+    {
+        "city": "Eskilstuna",
+        "total_population": 404044
+    },
+    {
+        "city": "Halmstad",
+        "total_population": 236525
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "diagnosis_code": "J03",
+        "registration_date": "1999-12-01",
+        "age_at_diagnose": 43,
+        "birth_year": 1956,
+        "city_of_residence": "Link\u00f6ping",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J00",
+        "registration_date": "1987-05-18",
+        "age_at_diagnose": 34,
+        "birth_year": 1982,
+        "city_of_residence": "V\u00e4ster\u00e5s",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J20",
+        "registration_date": "1943-02-24",
+        "age_at_diagnose": 38,
+        "birth_year": 1943,
+        "city_of_residence": "Ume\u00e5",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J10",
+        "registration_date": "1957-01-06",
+        "age_at_diagnose": 71,
+        "birth_year": 1944,
+        "city_of_residence": "Halmstad",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J11",
+        "registration_date": "2015-12-17",
+        "age_at_diagnose": 8,
+        "birth_year": 2007,
+        "city_of_residence": "Gothenburg",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "1994-03-14",
+        "age_at_diagnose": 42,
+        "birth_year": 1976,
+        "city_of_residence": "Bor\u00e5s",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J20",
+        "registration_date": "1974-01-02",
+        "age_at_diagnose": 31,
+        "birth_year": 1971,
+        "city_of_residence": "\u00d6rebro",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J30",
+        "registration_date": "1963-10-05",
+        "age_at_diagnose": 29,
+        "birth_year": 1957,
+        "city_of_residence": "J\u00f6nk\u00f6ping",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "A09",
+        "registration_date": "1980-08-18",
+        "age_at_diagnose": 15,
+        "birth_year": 1980,
+        "city_of_residence": "V\u00e4ster\u00e5s",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "2005-07-19",
+        "age_at_diagnose": 3,
+        "birth_year": 2004,
+        "city_of_residence": "J\u00f6nk\u00f6ping",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "N39",
+        "registration_date": "1968-01-18",
+        "age_at_diagnose": 28,
+        "birth_year": 1947,
+        "city_of_residence": "Bor\u00e5s",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "1973-12-21",
+        "age_at_diagnose": 18,
+        "birth_year": 1955,
+        "city_of_residence": "Lund",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J11",
+        "registration_date": "1951-07-26",
+        "age_at_diagnose": 18,
+        "birth_year": 1948,
+        "city_of_residence": "V\u00e4ster\u00e5s",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J30",
+        "registration_date": "2009-02-15",
+        "age_at_diagnose": 10,
+        "birth_year": 2007,
+        "city_of_residence": "J\u00f6nk\u00f6ping",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J00",
+        "registration_date": "1956-04-09",
+        "age_at_diagnose": 23,
+        "birth_year": 1956,
+        "city_of_residence": "Malm\u00f6",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J30",
+        "registration_date": "1991-09-16",
+        "age_at_diagnose": 32,
+        "birth_year": 1976,
+        "city_of_residence": "Malm\u00f6",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J01",
+        "registration_date": "1957-10-06",
+        "age_at_diagnose": 39,
+        "birth_year": 1944,
+        "city_of_residence": "Uppsala",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J01",
+        "registration_date": "1998-05-09",
+        "age_at_diagnose": 19,
+        "birth_year": 1992,
+        "city_of_residence": "Lund",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "K29",
+        "registration_date": "1977-10-02",
+        "age_at_diagnose": 23,
+        "birth_year": 1966,
+        "city_of_residence": "J\u00f6nk\u00f6ping",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "A09",
+        "registration_date": "2001-09-07",
+        "age_at_diagnose": 17,
+        "birth_year": 1994,
+        "city_of_residence": "Helsingborg",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J13",
+        "registration_date": "2000-10-29",
+        "age_at_diagnose": 6,
+        "birth_year": 1999,
+        "city_of_residence": "Bor\u00e5s",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J10",
+        "registration_date": "1952-01-03",
+        "age_at_diagnose": 64,
+        "birth_year": 1942,
+        "city_of_residence": "J\u00f6nk\u00f6ping",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J18",
+        "registration_date": "1956-08-21",
+        "age_at_diagnose": 23,
+        "birth_year": 1943,
+        "city_of_residence": "Malm\u00f6",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J12",
+        "registration_date": "1984-07-29",
+        "age_at_diagnose": 24,
+        "birth_year": 1967,
+        "city_of_residence": "Norrk\u00f6ping",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J13",
+        "registration_date": "1969-11-04",
+        "age_at_diagnose": 11,
+        "birth_year": 1963,
+        "city_of_residence": "Lund",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J09",
+        "registration_date": "1978-03-16",
+        "age_at_diagnose": 8,
+        "birth_year": 1977,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J18",
+        "registration_date": "1995-01-19",
+        "age_at_diagnose": 47,
+        "birth_year": 1957,
+        "city_of_residence": "J\u00f6nk\u00f6ping",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J11",
+        "registration_date": "1991-05-16",
+        "age_at_diagnose": 13,
+        "birth_year": 1979,
+        "city_of_residence": "G\u00e4vle",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "1994-06-14",
+        "age_at_diagnose": 20,
+        "birth_year": 1991,
+        "city_of_residence": "Eskilstuna",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J01",
+        "registration_date": "1974-11-10",
+        "age_at_diagnose": 1,
+        "birth_year": 1974,
+        "city_of_residence": "Eskilstuna",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J18",
+        "registration_date": "1979-05-04",
+        "age_at_diagnose": 40,
+        "birth_year": 1975,
+        "city_of_residence": "Halmstad",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "H66",
+        "registration_date": "1963-04-24",
+        "age_at_diagnose": 28,
+        "birth_year": 1956,
+        "city_of_residence": "Halmstad",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J10",
+        "registration_date": "1992-09-16",
+        "age_at_diagnose": 18,
+        "birth_year": 1992,
+        "city_of_residence": "Eskilstuna",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J11",
+        "registration_date": "1972-05-19",
+        "age_at_diagnose": 68,
+        "birth_year": 1944,
+        "city_of_residence": "Eskilstuna",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J13",
+        "registration_date": "1987-04-15",
+        "age_at_diagnose": 18,
+        "birth_year": 1985,
+        "city_of_residence": "Lund",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J30",
+        "registration_date": "1979-10-16",
+        "age_at_diagnose": 42,
+        "birth_year": 1953,
+        "city_of_residence": "Bor\u00e5s",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "1947-05-02",
+        "age_at_diagnose": 3,
+        "birth_year": 1947,
+        "city_of_residence": "Eskilstuna",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J15",
+        "registration_date": "1968-03-20",
+        "age_at_diagnose": 0,
+        "birth_year": 1968,
+        "city_of_residence": "Eskilstuna",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "2016-07-25",
+        "age_at_diagnose": 14,
+        "birth_year": 2006,
+        "city_of_residence": "Link\u00f6ping",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J01",
+        "registration_date": "2006-09-05",
+        "age_at_diagnose": 6,
+        "birth_year": 2004,
+        "city_of_residence": "Gothenburg",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J13",
+        "registration_date": "1962-09-02",
+        "age_at_diagnose": 13,
+        "birth_year": 1954,
+        "city_of_residence": "\u00d6rebro",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "N39",
+        "registration_date": "1958-11-05",
+        "age_at_diagnose": 20,
+        "birth_year": 1948,
+        "city_of_residence": "Link\u00f6ping",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J18",
+        "registration_date": "1981-04-27",
+        "age_at_diagnose": 11,
+        "birth_year": 1974,
+        "city_of_residence": "Norrk\u00f6ping",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J17",
+        "registration_date": "1963-05-14",
+        "age_at_diagnose": 6,
+        "birth_year": 1963,
+        "city_of_residence": "Stockholm",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J00",
+        "registration_date": "1983-11-16",
+        "age_at_diagnose": 23,
+        "birth_year": 1981,
+        "city_of_residence": "V\u00e4ster\u00e5s",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J03",
+        "registration_date": "1966-03-11",
+        "age_at_diagnose": 26,
+        "birth_year": 1966,
+        "city_of_residence": "Eskilstuna",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J12",
+        "registration_date": "2006-10-04",
+        "age_at_diagnose": 41,
+        "birth_year": 1977,
+        "city_of_residence": "G\u00e4vle",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J12",
+        "registration_date": "1998-08-12",
+        "age_at_diagnose": 29,
+        "birth_year": 1973,
+        "city_of_residence": "Malm\u00f6",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J09",
+        "registration_date": "1963-09-21",
+        "age_at_diagnose": 30,
+        "birth_year": 1963,
+        "city_of_residence": "Uppsala",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J10",
+        "registration_date": "1961-09-10",
+        "age_at_diagnose": 5,
+        "birth_year": 1961,
+        "city_of_residence": "Bor\u00e5s",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J13",
+        "registration_date": "1958-04-15",
+        "age_at_diagnose": 47,
+        "birth_year": 1951,
+        "city_of_residence": "Eskilstuna",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J09",
+        "registration_date": "2006-04-07",
+        "age_at_diagnose": 11,
+        "birth_year": 2002,
+        "city_of_residence": "Ume\u00e5",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "K29",
+        "registration_date": "1962-10-26",
+        "age_at_diagnose": 6,
+        "birth_year": 1960,
+        "city_of_residence": "Halmstad",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J01",
+        "registration_date": "2002-12-16",
+        "age_at_diagnose": 15,
+        "birth_year": 1998,
+        "city_of_residence": "Stockholm",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J00",
+        "registration_date": "1966-04-16",
+        "age_at_diagnose": 24,
+        "birth_year": 1961,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J00",
+        "registration_date": "1967-07-31",
+        "age_at_diagnose": 1,
+        "birth_year": 1967,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J18",
+        "registration_date": "1983-11-09",
+        "age_at_diagnose": 38,
+        "birth_year": 1971,
+        "city_of_residence": "Ume\u00e5",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J12",
+        "registration_date": "1951-08-11",
+        "age_at_diagnose": 67,
+        "birth_year": 1951,
+        "city_of_residence": "J\u00f6nk\u00f6ping",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J30",
+        "registration_date": "1994-08-12",
+        "age_at_diagnose": 45,
+        "birth_year": 1974,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J03",
+        "registration_date": "1989-08-06",
+        "age_at_diagnose": 1,
+        "birth_year": 1989,
+        "city_of_residence": "Bor\u00e5s",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J16",
+        "registration_date": "1969-08-12",
+        "age_at_diagnose": 49,
+        "birth_year": 1958,
+        "city_of_residence": "Halmstad",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J03",
+        "registration_date": "1976-12-15",
+        "age_at_diagnose": 12,
+        "birth_year": 1969,
+        "city_of_residence": "Helsingborg",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J13",
+        "registration_date": "1960-12-13",
+        "age_at_diagnose": 51,
+        "birth_year": 1953,
+        "city_of_residence": "Norrk\u00f6ping",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J01",
+        "registration_date": "1947-11-28",
+        "age_at_diagnose": 57,
+        "birth_year": 1942,
+        "city_of_residence": "Malm\u00f6",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "H66",
+        "registration_date": "2007-09-16",
+        "age_at_diagnose": 17,
+        "birth_year": 1999,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "H66",
+        "registration_date": "1987-04-05",
+        "age_at_diagnose": 63,
+        "birth_year": 1944,
+        "city_of_residence": "Norrk\u00f6ping",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "2003-02-19",
+        "age_at_diagnose": 13,
+        "birth_year": 1999,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "H66",
+        "registration_date": "1962-11-08",
+        "age_at_diagnose": 63,
+        "birth_year": 1947,
+        "city_of_residence": "V\u00e4ster\u00e5s",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J13",
+        "registration_date": "1944-03-02",
+        "age_at_diagnose": 2,
+        "birth_year": 1944,
+        "city_of_residence": "Norrk\u00f6ping",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J16",
+        "registration_date": "1987-10-22",
+        "age_at_diagnose": 8,
+        "birth_year": 1979,
+        "city_of_residence": "Stockholm",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "K29",
+        "registration_date": "1988-10-01",
+        "age_at_diagnose": 12,
+        "birth_year": 1986,
+        "city_of_residence": "Uppsala",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J03",
+        "registration_date": "1991-06-12",
+        "age_at_diagnose": 33,
+        "birth_year": 1977,
+        "city_of_residence": "Lund",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J17",
+        "registration_date": "1984-10-09",
+        "age_at_diagnose": 8,
+        "birth_year": 1977,
+        "city_of_residence": "Link\u00f6ping",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J01",
+        "registration_date": "1997-09-12",
+        "age_at_diagnose": 29,
+        "birth_year": 1973,
+        "city_of_residence": "Ume\u00e5",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J00",
+        "registration_date": "2015-02-04",
+        "age_at_diagnose": 29,
+        "birth_year": 1990,
+        "city_of_residence": "V\u00e4ster\u00e5s",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J10",
+        "registration_date": "1963-04-30",
+        "age_at_diagnose": 33,
+        "birth_year": 1962,
+        "city_of_residence": "Stockholm",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "K29",
+        "registration_date": "1976-09-02",
+        "age_at_diagnose": 32,
+        "birth_year": 1968,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J03",
+        "registration_date": "1972-09-15",
+        "age_at_diagnose": 12,
+        "birth_year": 1969,
+        "city_of_residence": "G\u00e4vle",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J15",
+        "registration_date": "1983-02-07",
+        "age_at_diagnose": 21,
+        "birth_year": 1962,
+        "city_of_residence": "Malm\u00f6",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J15",
+        "registration_date": "1968-01-06",
+        "age_at_diagnose": 49,
+        "birth_year": 1956,
+        "city_of_residence": "Link\u00f6ping",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J00",
+        "registration_date": "2021-10-23",
+        "age_at_diagnose": 22,
+        "birth_year": 1999,
+        "city_of_residence": "V\u00e4ster\u00e5s",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J12",
+        "registration_date": "1964-06-30",
+        "age_at_diagnose": 0,
+        "birth_year": 1964,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J13",
+        "registration_date": "1993-10-20",
+        "age_at_diagnose": 45,
+        "birth_year": 1954,
+        "city_of_residence": "Norrk\u00f6ping",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "1955-04-01",
+        "age_at_diagnose": 36,
+        "birth_year": 1953,
+        "city_of_residence": "Stockholm",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "N39",
+        "registration_date": "1983-07-11",
+        "age_at_diagnose": 59,
+        "birth_year": 1950,
+        "city_of_residence": "Helsingborg",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "2000-08-21",
+        "age_at_diagnose": 47,
+        "birth_year": 1956,
+        "city_of_residence": "Helsingborg",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J15",
+        "registration_date": "1997-07-23",
+        "age_at_diagnose": 2,
+        "birth_year": 1995,
+        "city_of_residence": "Norrk\u00f6ping",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "N39",
+        "registration_date": "2006-10-15",
+        "age_at_diagnose": 14,
+        "birth_year": 2003,
+        "city_of_residence": "Gothenburg",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J14",
+        "registration_date": "1973-09-24",
+        "age_at_diagnose": 31,
+        "birth_year": 1948,
+        "city_of_residence": "Ume\u00e5",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J18",
+        "registration_date": "1989-12-09",
+        "age_at_diagnose": 44,
+        "birth_year": 1958,
+        "city_of_residence": "\u00d6rebro",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J02",
+        "registration_date": "1979-12-31",
+        "age_at_diagnose": 29,
+        "birth_year": 1956,
+        "city_of_residence": "Link\u00f6ping",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J15",
+        "registration_date": "1952-03-02",
+        "age_at_diagnose": 15,
+        "birth_year": 1942,
+        "city_of_residence": "Bor\u00e5s",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J03",
+        "registration_date": "1991-08-02",
+        "age_at_diagnose": 42,
+        "birth_year": 1979,
+        "city_of_residence": "Eskilstuna",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J18",
+        "registration_date": "2008-01-25",
+        "age_at_diagnose": 35,
+        "birth_year": 1987,
+        "city_of_residence": "G\u00e4vle",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J11",
+        "registration_date": "2010-05-08",
+        "age_at_diagnose": 41,
+        "birth_year": 1981,
+        "city_of_residence": "J\u00f6nk\u00f6ping",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J11",
+        "registration_date": "2006-02-21",
+        "age_at_diagnose": 77,
+        "birth_year": 1944,
+        "city_of_residence": "Halmstad",
+        "gender": "F",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J00",
+        "registration_date": "1977-02-21",
+        "age_at_diagnose": 17,
+        "birth_year": 1968,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "M",
+        "married": true
+    },
+    {
+        "diagnosis_code": "J15",
+        "registration_date": "1974-02-23",
+        "age_at_diagnose": 79,
+        "birth_year": 1941,
+        "city_of_residence": "Eskilstuna",
+        "gender": "M",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J09",
+        "registration_date": "1960-01-29",
+        "age_at_diagnose": 16,
+        "birth_year": 1947,
+        "city_of_residence": "S\u00f6dert\u00e4lje",
+        "gender": "F",
+        "married": false
+    },
+    {
+        "diagnosis_code": "J20",
+        "registration_date": "2019-01-26",
+        "age_at_diagnose": 16,
+        "birth_year": 2006,
+        "city_of_residence": "Eskilstuna",
+        "gender": "M",
+        "married": true
+    }
+]
