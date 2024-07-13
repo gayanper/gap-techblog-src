@@ -1,0 +1,136 @@
+openapi: "3.0.3"
+info:
+  title: Drug Catalog API
+  description: Provide information about medical drugs (a.k.a medicines)
+  contact:
+    name: Catalog Team
+  version: "1.0.0"
+servers:
+  - url: http://localhost:8080
+
+tags:
+  - name: search
+
+paths:
+  /drugs/search:
+    post:
+      description: Search drug catalog for drugs by ATC code or generic name of the drug.
+      tags:
+        - search
+      operationId: search
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DrugSearch"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DrugList"
+        "400":
+          description: Business validation error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProblemDetail"
+        "500":
+          description: Unhandled server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProblemDetail"
+
+components:
+  schemas:
+    DrugList:
+      description: Drug list response
+      type: object
+      required:
+        - drugs
+      properties:
+        drugs:
+          type: array
+          items:
+            $ref: "#/components/schemas/Drug"
+
+    DrugSearch:
+      description: |
+        The search request for searching drugs in drug catalog.
+      type: object
+      required:
+        - genericName
+      properties:
+        genericName:
+          type: string
+
+    Manufacturer:
+      description: Manufacture's information such as name and contact information.
+      type: object
+      properties:
+        name:
+          type: string
+        contactInfo:
+          type: string
+
+    Dosage:
+      description: Information single dosage such as it's form and strength
+      type: object
+      properties:
+        form:
+          type: string
+          enum:
+            - Tablet
+            - Capsule
+            - Infusion
+            - Liquid
+        strength:
+          type: string
+
+    Names:
+      description: Names of the drug including the generic name of the drug and the name it is branded as.
+      type: object
+      properties:
+        genericName:
+          type: string
+        brandName:
+          type: string
+    
+    Drug:
+      description: Information about a single drug in the catalog.
+      type: object
+      properties:
+        id:
+          type: string
+        names:
+          $ref: "#/components/schemas/Names"
+        manufacturer:
+          $ref: "#/components/schemas/Manufacturer"
+        dosage:
+          $ref: "#/components/schemas/Dosage"
+
+    ProblemDetail:
+      description: error response as defined in https://datatracker.ietf.org/doc/html/rfc9457
+      type: object
+      properties:
+        type:
+          type: string
+          format: uri
+        title:
+          type: string
+        status:
+          type: integer
+          format: int32
+        detail:
+          type: string
+        instance:
+          type: string
+          format: uri
+        properties:
+          type: object
+          additionalProperties:
+            type: object
+ 
