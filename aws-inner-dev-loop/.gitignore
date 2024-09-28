@@ -1,0 +1,6 @@
+.aws-sam/
+lambda-hello/cdk/node_modules/
+lambda-hello/cdk/cdk.out/
+lambda-hello/HelloWorldFunction/.gradle/
+lambda-hello/HelloWorldFunction/bin
+lambda-hello/HelloWorldFunction/build
