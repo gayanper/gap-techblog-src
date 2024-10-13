@@ -1,0 +1,9 @@
+GET http://localhost:3090/api/scores HTTP/1.1
+
+###
+
+GET http://localhost:3090/api/teams HTTP/1.1
+
+###
+
+GET http://localhost:3080/api/scores HTTP/1.1

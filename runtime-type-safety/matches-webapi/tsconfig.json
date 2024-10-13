@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "module": "es6",
+    "target": "es6",
+    "allowJs": false,
+    "outDir": "./dist/",
+    "sourceMap": true
+  },
+  "files": ["src/main.ts"]
+}

@@ -1,0 +1,9 @@
+@startuml
+    left to right direction
+    component "Consumer"
+    component "Scores BFF"
+    component "Matches API"
+    "Consumer" --> "Scores BFF" : GET /api/scores
+    "Scores BFF" ---->  "Matches API": GET /api/teams
+    "Scores BFF" ---->  "Matches API": GET /api/scores
+@enduml
