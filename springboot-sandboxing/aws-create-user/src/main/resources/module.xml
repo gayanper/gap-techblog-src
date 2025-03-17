@@ -1,0 +1,11 @@
+<module xmlns="urn:jboss:module:1.9" name="lambda_create_user" version="1.0.0">
+    <resources>
+        <resource-root path="aws-create-user.jar"/>
+    </resources>
+    <dependencies>
+        <module name="java.base"/>
+    </dependencies>
+    <properties>
+        <property name="main-class" value="gap.aws.functions.App"/>
+    </properties>
+</module>
