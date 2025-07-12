@@ -1,0 +1,47 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Employee {
+  id          Int          @id @default(autoincrement())
+  firstName   String
+  lastName    String
+  email       String       @unique
+  phoneNumber String
+  department  Department?
+  assignments Assignment[]
+}
+
+model Department {
+  id          Int          @id @default(autoincrement())
+  name        String
+  manager     Employee     @relation(fields: [managerId], references: [id])
+  managerId   Int          @unique
+  assignments Assignment[]
+}
+
+model Assignment {
+  id           Int        @id @default(autoincrement())
+  employee     Employee   @relation(fields: [employeeId], references: [id])
+  employeeId   Int
+  department   Department @relation(fields: [departmentId], references: [id])
+  departmentId Int
+  startDate    DateTime
+  endDate      DateTime?
+}
+
+model EntityHistory {
+  id         Int      @id @default(autoincrement())
+  entityId   Int
+  entityType String
+  action     String
+  changedBy  String
+  changedAt  DateTime
+  snapshot   Json
+  diff       Json
+}

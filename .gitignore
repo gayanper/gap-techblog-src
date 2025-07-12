@@ -28,6 +28,7 @@ target/
 
 # js
 node_modules/
+dist/
 
 # macos
 .DS_Store

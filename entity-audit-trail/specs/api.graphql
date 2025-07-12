@@ -1,0 +1,113 @@
+input NewEmployee {
+  firstName: String!
+  lastName: String!
+  email: String!
+  phoneNumber: String!
+}
+
+type Employee {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  email: String!
+  phoneNumber: String!
+  assignments: [Assignment!]
+}
+
+input UpdateEmployee {
+  id: ID!
+  firstName: String
+  lastName: String
+  email: String
+  phoneNumber: String
+}
+
+input NewDepartment {
+  name: String!
+  managerId: ID!
+}
+
+type Department {
+  id: ID!
+  name: String!
+  manager: Employee!
+}
+
+input UpdateDepartment {
+  id: ID!
+  name: String!
+  managerId: ID!
+}
+
+type Assignment {
+  id: ID!
+  employee: Employee!
+  department: Department!
+  startDate: String!
+  endDate: String
+}
+
+input NewAssignment {
+  employeeId: ID!
+  departmentId: ID!
+}
+
+input EndAssignment {
+  id: ID!
+  endDate: String!
+}
+
+type AssignEmployeeResponse {
+  assignment: Assignment!
+  previousAssignment: Assignment
+}
+
+enum JsonPathOperation {
+  ADD
+  REMOVED
+  REPLACE
+}
+
+enum EntityType {
+  EMPLOYEE
+  DEPARTMENT
+  ASSIGNMENT
+}
+enum EntityAction {
+  CREATED
+  CHANGED
+  DELETED
+}
+
+type EntityHistory {
+  id: ID!
+  action: EntityAction!
+  changedBy: String!
+  changedAt: String!
+  entityId: ID!
+  entityType: EntityType!
+  diffsJsonString: String!
+  snapshotJsonString: String!
+}
+
+type Query {
+  employees: [Employee!]!
+  employee(id: ID!): Employee!
+  departments: [Department!]!
+  department(id: ID!): Department!
+  assignment(id: ID!): Assignment!
+  history(entityId: ID!, entityType: EntityType!): [EntityHistory!]!
+}
+
+type Mutation {
+  createEmployee(input: NewEmployee!): Employee!
+  updateEmployee(input: UpdateEmployee!): Employee!
+  deleteEmployee(id: ID!): Boolean!
+
+  createDepartment(input: NewDepartment!): Department!
+  updateDepartment(input: UpdateDepartment!): Department!
+  deleteDepartment(id: ID!): Boolean!
+
+  assignEmployee(input: NewAssignment!): AssignEmployeeResponse!
+  endEmployeeAssignment(input: EndAssignment!): Assignment!
+}

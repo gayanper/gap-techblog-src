@@ -1,0 +1,47 @@
+{
+  "name": "entity-audit-trail",
+  "version": "1.0.0",
+  "description": "Entity Audit Trail PoC",
+  "main": "index.js",
+  "scripts": {
+    "codegen-gql": "graphql-codegen --config codegen.ts",
+    "codegen-prisma": "prisma generate",
+    "compile": "tsc",
+    "build": "rm -fR ./dist && npm run codegen-gql && npm run codegen-prisma && npm run format && npm run compile",
+    "migrate": "DATABASE_URL=\"mysql://root:root@localhost:3306/audit_trail\" prisma migrate deploy",
+    "start-server": "npm run migrate && npm run build && DATABASE_URL=\"mysql://root:root@localhost:3306/audit_trail\" node dist/index.js",
+    "test": "jest --config jest.config.js --runInBand",
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "create-migrations": "DATABASE_URL=\"mysql://root:root@localhost:3306/audit_trail\" npx prisma migrate dev",
+    "seed-scenarios": "ts-node src/seed-scenarios.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "5.0.7",
+    "@graphql-codegen/introspection": "4.0.3",
+    "@graphql-codegen/typescript": "4.1.6",
+    "@graphql-codegen/typescript-resolvers": "4.5.1",
+    "@prisma/client": "^6.11.1",
+    "@types/jest": "^30.0.0",
+    "cross-env": "^7.0.3",
+    "jest": "^30.0.4",
+    "prettier": "^2.8.0",
+    "ts-jest": "^29.4.0",
+    "ts-node": "10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.12.2",
+    "@as-integrations/fastify": "2.1.1",
+    "@graphql-tools/schema": "10.0.25",
+    "cross-fetch": "^4.1.0",
+    "express": "5.1.0",
+    "graphql": "^16.11.0",
+    "graphql-middleware": "6.1.35",
+    "pino": "9.7.0",
+    "pino-pretty": "13.0.0",
+    "prisma": "^6.11.1"
+  }
+}
