@@ -1,0 +1,29 @@
+{
+  "name": "uuid-db-perf",
+  "version": "1.0.0",
+  "description": "Test insert performance of UUIDs in MySQL",
+  "main": "src/populate.ts",
+  "scripts": {
+    "populate": "ts-node src/populate.ts",
+    "query": "ts-node src/queries.ts",
+    "analyze": "ts-node src/analyze.ts",
+    "run:v4-tests": "npm run populate -- --version=v4 && npm run query -- --version=v4",
+    "run:v7-tests": "npm run populate -- --version=v7 && npm run query -- --version=v7",
+    "run:report": "npm run analyze"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "chart.js": "^4.4.3",
+    "danfojs-node": "^1.1.2",
+    "mysql2": "^3.10.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/uuid": "^9.0.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
